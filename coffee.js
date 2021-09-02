@@ -50,7 +50,7 @@ coffees.forEach((element,index)=>{
     html=html+  `<div class="coffee" id=${index}>
     <div class="rel"><img src=${element.imgsrc}>
     <div class="blackdiv">
-    <img class="mug" src="../images/mug.png">
+    <img class="mug" src="./images/mug.png">
     </div>
     </div>
     <p class="coffeename">${element.name}</p>
