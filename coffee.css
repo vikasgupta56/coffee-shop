@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -47,6 +48,9 @@ navbar {
     padding: 0rem;
     align-items: center;
     justify-content: center;
+}
+.navlist a{
+    text-decoration: none;
 }
 
 .navlist ul li {
